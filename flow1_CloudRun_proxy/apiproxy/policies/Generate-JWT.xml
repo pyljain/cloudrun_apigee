@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenerateJWT async="false" continueOnError="false" enabled="true" name="Generate-JWT">
+    <DisplayName>Generate JWT</DisplayName>
+    <Algorithm>RS256</Algorithm>
+    <PrivateKey>
+        <Value ref="private.rsakey"/>
+    </PrivateKey>
+    <Issuer ref="private.jwt.issuer"/>
+    <Audience>https://www.googleapis.com/oauth2/v4/token</Audience>
+    <ExpiresIn>1h</ExpiresIn>
+    <AdditionalClaims>
+        <Claim name="target_audience" type="string" ref="private.jwt.target_audience"/>
+    </AdditionalClaims>
+    <OutputVariable>jwt-variable</OutputVariable>
+</GenerateJWT>

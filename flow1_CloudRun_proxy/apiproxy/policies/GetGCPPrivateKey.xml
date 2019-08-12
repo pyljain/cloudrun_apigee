@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="GetGCPPrivateKey" mapIdentifier="apigee-cloudrun-sa">
+    <DisplayName>GetSAfromKVM</DisplayName>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>300</ExpiryTimeInSecs>
+    <Get assignTo="private.rsakey">
+        <Key>
+            <Parameter>private_key</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.jwt.issuer">
+        <Key>
+            <Parameter>jwt_issuer</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.jwt.target_audience">
+        <Key>
+            <Parameter>jwt_target_audience</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

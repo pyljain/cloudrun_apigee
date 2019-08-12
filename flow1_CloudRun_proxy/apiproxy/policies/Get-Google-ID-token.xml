@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="Get-Google-ID-token">
+    <DisplayName>Get-Google-ID-token</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="myRequest">
+        <Set>
+            <Headers>
+                <Header name="Content-Type">application/json</Header>
+            </Headers>
+            <Verb>POST</Verb>
+            <FormParams>
+                <FormParam name="grant_type">urn:ietf:params:oauth:grant-type:jwt-bearer</FormParam>
+                <FormParam name="assertion">{jwt-variable}</FormParam>
+            </FormParams>
+        </Set>
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://www.googleapis.com/oauth2/v4/token</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

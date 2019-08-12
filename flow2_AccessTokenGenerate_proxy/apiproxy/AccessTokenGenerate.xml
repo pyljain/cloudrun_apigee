@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="AccessTokenGenerate">
+    <Basepaths>/oauth2/token</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1561836554262</CreatedAt>
+    <CreatedBy>jainpayal@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>AccessTokenGenerate</DisplayName>
+    <LastModifiedAt>1561836699419</LastModifiedAt>
+    <LastModifiedBy>jainpayal@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:891110f455a75c05d315bb4d0003410dac0299ce8acbf0b33e4b5e0f168942d2c717c363d08b8ce4a81de8a49a2b1eb780128c02dfe5326accdafd89731ea293</ManifestVersion>
+    <Policies>
+        <Policy>OAuth-Generate-Access-Token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

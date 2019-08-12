@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="OAuth-Generate-Access-Token">
+    <DisplayName>OAuth Generate Access Token</DisplayName>
+    <Operation>GenerateAccessToken</Operation>
+    <SupportedGrantTypes>
+        <GrantType>client_credentials</GrantType>
+    </SupportedGrantTypes>
+    <GenerateResponse enabled="true"/>
+    <ExpiresIn>3600000</ExpiresIn>
+    <Tokens/>
+</OAuthV2>

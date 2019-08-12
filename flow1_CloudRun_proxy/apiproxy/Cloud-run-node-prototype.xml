@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="Cloud-run-node-prototype">
+    <Basepaths>/cloud-run-node-prototype</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1561316089190</CreatedAt>
+    <CreatedBy>gcp@google.com</CreatedBy>
+    <Description>Sample secured Cloud Run Node.js service which Apigee would call using a Service Account</Description>
+    <DisplayName>Cloud-run-node-prototype</DisplayName>
+    <LastModifiedAt>1565594928121</LastModifiedAt>
+    <LastModifiedBy>gcp@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:ad08e0711dda63d9aa32e34200b88d0c163b1a9729b8273cf77db43ec017a3c693293fbb914ca7b6fcc63ffb4d48c7662dfca3f3785a97dc839379127dce1e18</ManifestVersion>
+    <Policies>
+        <Policy>Generate-JWT</Policy>
+        <Policy>Get-Google-ID-token</Policy>
+        <Policy>GetGCPPrivateKey</Policy>
+        <Policy>OAuth-Verify</Policy>
+        <Policy>Set-headers</Policy>
+        <Policy>SpikeArrest</Policy>
+        <Policy>extract-ID-token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

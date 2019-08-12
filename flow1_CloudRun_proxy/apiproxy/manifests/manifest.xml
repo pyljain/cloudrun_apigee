@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Generate-JWT" version="SHA-512:57b062328e5e89e92c9d6ba06988d7a3c8fea9d914f3458f1910e6bb28cfffda8f566a063262542cc7d8025617edec8ea8c45aada7141ba7d825837f78584647"/>
+        <VersionInfo resourceName="Get-Google-ID-token" version="SHA-512:d0e2d290ef7ee0f35f26f62b70249d0e075dd009767b82263694036e17b547dcc792b98c3799eda9e42ee16526832cafb84bd4356248a382bd25adf0acb96eca"/>
+        <VersionInfo resourceName="GetGCPPrivateKey" version="SHA-512:e0d225be656306e5f4d38af381483551b9ee294aee7a7a7a574836819c7bd764b861f17e1375c1b2c77bd06935136d79c13a330ecba995c000e40187ca25e202"/>
+        <VersionInfo resourceName="OAuth-Verify" version="SHA-512:d7d9fa71b6accf1f186697d7a5d709fadb835680aa3c7546594f088952c0102222d22ebda398db10c5ad1c9b0b2f351f40d6e4243a8e920a346ace60451906f3"/>
+        <VersionInfo resourceName="Set-headers" version="SHA-512:3bad21b23f75d267e589f886aec0716fa13899f1b83c2bb02bf0a25146b004f2d8c7837d94ab6be7d54332dbc4d946d22a647c4a9a140d56f77d5b98f0dc5644"/>
+        <VersionInfo resourceName="SpikeArrest" version="SHA-512:573e09fc193b355afb3f0ffd0f2484ee0eaeecf76df434d2f48cdce35d5df1283a1780fd4c5374e6dc4e525b5e940e9b8b082337fceb0c8244408a3d5c2b4959"/>
+        <VersionInfo resourceName="extract-ID-token" version="SHA-512:7dcafc41d85ce3dca8565e75a194c36d0c61616893621837004983a2360d420879a1688fcb349cc5e417c8bb65d10bb08f257c94adfbec93c399924ef78bcce4"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f001b1a2ed524e00391db0393e289d084891a9b6e8f4f9efeeea444b9beafb38d9c32aa65ce75adff70e0d520b5b3da5d5abd7b2e720dc3922e3690ccea041ea"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:da2c0009253734cd0c9d6003390dbf761b6d67f10e1e2ec1059005d50a9c10a910f9200b69ed248f0f3b4121770095176b58a54f108bf146a44e70fe03339072"/>
+    </TargetEndpoints>
+</Manifest>
